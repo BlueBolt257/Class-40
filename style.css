@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+canvas{
+  border: 2px solid black;
+}
+
+@font-face{
+  font-family: vollkorn;
+  src: url("Vollkorn-Bold.ttf")
+}
+
+.gameTitle{
+  width: 85%;
+  height: 160px;
+}
+
+.gameTitleAfterEffect{
+  width: 25%;
+  height: 80px;
+}
+
+.customInput{
+  width: 200px;
+  height: 30px;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: vollkorn;
+  outline:  none;
+  color: white;
+  text-align: center;
+  
+}
+
+.greeting{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-family: vollkorn;
+}
+
+.playButton{
+  width: 180px;
+  height: 50px;
+  background-color: #fea834;
+  border: 3px solid white;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 100px;  
+  text-decoration: none;
+  display: inline-block;
+  font-family: vollkorn;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  outline: none;
+}
+.resetButton {
+  width:60px;
+  height:60px;
+  background-image: url('Iages/reset.png');
+  background-size: cover;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.resetText{
+  font-size: 25px;
+  color: white;
+  font-family: vollkorn;
+  text-align: center;
+  text-shadow: -1px 1px 0 #ff1744,
+                1px 1px 0 #ff1744,
+                1px -1px 0 #ff1744,
+                -1px -1px 0 #ff1744;
+}
+
+.leadersText{
+  font-size: 20px;
+  color: white;
+  font-family: vollkorn;
+  text-align: center;
+}
